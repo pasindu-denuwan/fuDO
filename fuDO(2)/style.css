@@ -1,0 +1,82 @@
+.nav-link .fa {
+    color: white; 
+    size: 15%;
+}
+.d-flex{
+  position:relative;
+ 
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' -25,
+    'opsz' 24
+  }
+   .name p{
+      padding-left:  650px ;
+      position: relative;
+      padding-top: 140px;
+      font-size: 120px;
+      font-weight: 600;
+  }
+  .px-3 h1{
+      font-size: 80px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .px-3 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .button{
+      padding-left: 670px;
+      padding-top: 40px;
+      
+  }
+  
+  .mb-auto{
+      margin: 20px;
+  
+  }
+  .mb-auto a{
+      margin: 10px;
+  }
+  .px-3{
+      margin: 70px;
+  }
+  .px-3 a{
+      margin: 70px;
+  }
+  
+  /* Ensure the body and html take full height */
+  html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+  }
+  .d-grid a{
+    border-radius : 30px;
+  }
+  
+  .background-clip{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+  }
+  
+  .cover-container {
+      position: relative;
+      z-index: 1; 
+  }
+  @media(min-aspect-ratio:16/9){
+      .background-clip{
+          width: 100%;
+          height: auto;
+      }
+  }
+  @media(max-aspect-ratio:16/9){
+      .background-clip{
+          width: auto;
+          height: 100%;
+      }
+  }
